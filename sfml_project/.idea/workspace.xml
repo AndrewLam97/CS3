@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5cbfa5c-e0c9-4939-a163-2ce13cd2b2ad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="1YFIdC1wpmBHzDcyYYMejjnuClv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunManager" selected="CMake Application.sfml_project">
+    <configuration name="Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml_project" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="sfml_project">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml_project" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="sfml_project" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="sfml_project">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.sfml_project" />
+      <item itemvalue="CMake Application.Debug" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5cbfa5c-e0c9-4939-a163-2ce13cd2b2ad" name="Default Changelist" comment="" />
+      <created>1582532000979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582532000979</updated>
+      <workItem from="1582532003208" duration="548000" />
+      <workItem from="1582532654965" duration="1330000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="322" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582532225039">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="322" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.-1005.1440.2560/1920.-1005.1440.2560/0.0.1920.1080@0.0.1920.1080" timestamp="1582532225039" />
+    <state x="648" y="316" key="FileChooserDialogImpl" timestamp="1582532194372">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="648" y="316" key="FileChooserDialogImpl/-1440.-1005.1440.2560/1920.-1005.1440.2560/0.0.1920.1080@0.0.1920.1080" timestamp="1582532194372" />
+    <state x="369" y="203" key="SettingsEditor" timestamp="1582532248855">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="369" y="203" key="SettingsEditor/-1440.-1005.1440.2560/1920.-1005.1440.2560/0.0.1920.1080@0.0.1920.1080" timestamp="1582532248855" />
+    <state x="661" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1582532003825">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="661" y="364" key="com.intellij.ide.util.TipDialog/-1440.-1005.1440.2560/1920.-1005.1440.2560/0.0.1920.1080@0.0.1920.1080" timestamp="1582532003825" />
+  </component>
+</project>
