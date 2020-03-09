@@ -6,7 +6,7 @@
 #include <string>
 using namespace std;
 
-int maxSize = 999;
+int maxSize = 50;
 int arr1Size = 0;
 int arr2Size = 0;
 int pos;
@@ -32,7 +32,7 @@ int main()
         }
 
         cout << "The result is : ";
-        for (size_t i = 0; i < pos; ++i) {
+        for (int i = 0; i < pos; ++i) {
             cout << result[i];
         }
 
