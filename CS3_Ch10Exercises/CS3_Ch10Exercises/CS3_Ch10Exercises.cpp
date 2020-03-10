@@ -91,4 +91,50 @@ int main()
         }
 
     15. no, yes, yes, yes, no, no, no, yes
+
+    16. Everything is legal except for the hyundai==jaguar statement
+
+    17. Public and private are access keywords and define whether or not
+        the following members are publically accessible using the dot
+        operator. It is generally inadvisable to set everything to public
+        because then anyone outside the program can modify any of the values
+        at any time. They can also set illegal values. It is much better practice
+        to use practice encapsulation and use accessors and mutators.
+
+    18a. one
+    18b. none
+    18c. private
+    18d. public
+
+    19. double difference(BankAccount account1, BankAccount account2){
+            double diff = account1.getBalance() - account2.getBalance();
+            return diff;
+        }
+
+    20. void doubleUpdate(BankAccount& theAccount){
+            theAccount.update();
+            theAccouht.update();
+        }
+
+    21. BankAccount newAccount(BankAccount oldAccount) {
+            BankAccount temp;
+            temp.set(0, oldAccount.getRate());
+            return temp;
+        }
+
+    22. yes, yes, no, yes, yes, no
+
+    23. class DayOfYear {
+        public:
+            DayOfYear(int theMonth, int theDay);
+            DayOfYear();
+            void input();
+            void output();
+            int getMonth();
+            int getDay();
+        private:
+            void checkDate();
+            int month;
+            int day;
+        };
 */
