@@ -137,4 +137,35 @@ int main()
             int month;
             int day;
         };
+
+        DayOfYear::DayOfYear(int theMonth, int theDay){
+            this->month = theMonth;
+            this->day = theDay;
+        }
+
+        DayOfYear::DayOfYear(){
+            month = 1;
+            day = 1;
+        }
+
+    24. DayOfYear::DayOfYear(int theMonth, int theDay):month(theMonth), day(theDay){
+            checkDate();
+        }
+        DayOfYear::DayOfYear():month(1), day(1){
+
+        }
+        
+    25. When defining an ADT as a C++ class, member variables should be private
+        and manipulated using accessors and mutators. Member functions can be either
+        private or public, depending on their use. Accessor and mutator functions should
+        be public while functions that perform internal procedures should be private.
+
+    26. The items that are considered the interface of the ADT are the declarations for member
+        variables and public member functions. They are located in the header file. All function
+        definitions are part of the implementation.
+
+    27. You only really need to read the interface for the ADT as you are not really concerned 
+        with how the class works, just what the class and its members do.
+
+    28. 
 */
