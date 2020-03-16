@@ -42,9 +42,11 @@ std::string Date::getDate(std::string format) {
 	string output;
 	string formatArr[4] = { "YY", "MM", "T", "F" };
 
+	//convert YY to T and MM to F
 	ReplaceStringInPlace(format, formatArr[0], formatArr[2]);
 	ReplaceStringInPlace(format, formatArr[1], formatArr[3]);
 	
+	//concat desired date format
 	for (int i = 0; i < format.length(); i++) {
 		switch (format[i]) {
 		case 'T':
@@ -82,7 +84,7 @@ void Date::testDate() {
 }
 
 void Date::altFormats() {
-	this->shortYear = year % 1000;
+	this->shortYear = year % 1000; //convert 4 digit year to 2 digit
 	switch (month) {
 	case 1:
 		longMonth = "January";
@@ -126,8 +128,9 @@ void Date::altFormats() {
 }
 
 Date::Date() {
-	time_t now = chrono::system_clock::to_time_t(chrono::system_clock::now());
+	time_t now = chrono::system_clock::to_time_t(chrono::system_clock::now()); //get current time
 
+	//create strings for month, day, and year
 	char monthStr[20] = { 0 };
 	std::strftime(monthStr, sizeof(monthStr), "%m", localtime(&now));
 	char dayStr[20] = { 0 };

@@ -36,16 +36,16 @@ public:
 	void setYear(int year);
 
 	/*
-	PURPOSE: 
-	PARAMETERS:
-	RETURNS:
+	PURPOSE: Constructs date string with specified format
+	PARAMETERS: string containing desired output format
+	RETURNS: formatted date string
 	*/
 	string getDate(string format);
 
 	void testDate();
 
 	Date(); //set the date to today's date
-	Date(int month, int day, int year);
+	Date(int month, int day, int year); //set the date to specified date
 
 };
 

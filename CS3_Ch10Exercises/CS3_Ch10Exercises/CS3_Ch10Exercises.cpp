@@ -167,5 +167,24 @@ int main()
     27. You only really need to read the interface for the ADT as you are not really concerned 
         with how the class works, just what the class and its members do.
 
-    28. 
+    28. BankAccount::BankAccount ( int dollars, int cents, double rate) : dollarsPart(dollars), centsPart(cents),
+        interestRate(fraction(rate)){
+            if ((dollars < 0) || (cents < 0) || (rate < 0)){
+                cout << "Illegal numbers inputted" << endl;
+            }
+        }
+        BankAccount::BankAccount(int dollars, double rate): dollarsPart(dollars), centsPart(0),
+        interestRate(fraction(rate)){
+            if ((dollars < 0) || (rate < 0) {
+                cout << "Illegal numbers inputted" << endl;
+            }
+        }
+
+    29. The derived class can access any functions and data in the parent class. This eliminates redundant code
+        and streamlines the maintenance process. Instead of updating the same code in multiple locations, the
+        developer only has to update the parent class.
+
+    30. Directly no, but it can use an accessor.
+
+    31. Yes
 */
