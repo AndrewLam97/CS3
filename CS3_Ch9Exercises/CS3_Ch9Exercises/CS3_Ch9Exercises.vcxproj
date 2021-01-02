@@ -20,6 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
+
+=======
     <ProjectGuid>{B3B0CE05-2E68-48C3-B2F1-AF038F5CDE33}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>CS3Ch9Exercises</RootNamespace>
