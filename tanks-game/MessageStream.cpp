@@ -1,0 +1,30 @@
+#include "MessageStream.h"
+#include <iostream>
+
+MessageStream::MessageStream()
+{}
+
+void MessageStream::addGroup(std::string name,MsgGroup &grp)
+{
+    groups.insert(std::make_pair(name,std::move(grp)));
+}
+
+void MessageStream::removeGroup(std::string name)
+{
+    groups.erase(name);
+}
+
+MsgGroup& MessageStream::getGroup(std::string name) 
+{
+    return groups[name];
+}
+
+void MessageStream::sendMessage(const Message &msg,std::string grp)
+{
+    auto it = groups.find(grp);
+    if(it != groups.end())
+        it->second.sendMessage(msg);
+    else
+        std::cerr << "Error : MessageStream::sendMessage : Message group \""
+                    << grp << "\"not found." << std::endl;
+}

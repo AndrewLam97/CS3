@@ -1,0 +1,3 @@
+C:/Users/Andrew/tanks-game/CMakeFiles/miniTanks.dir
+C:/Users/Andrew/tanks-game/CMakeFiles/ALL_BUILD.dir
+C:/Users/Andrew/tanks-game/CMakeFiles/ZERO_CHECK.dir
